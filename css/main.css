@@ -218,11 +218,18 @@ header .hidenAvatar {
 
 section#education > div {
     display: flex;
+    flex-direction: row;
     margin-top: 12px;
 }
 
-section#education article {
-    margin-left: 40px;
+section#education > div > div
+{
+    flex-basis: 15%;
+}
+
+section#education article
+{
+    flex-basis: 80%;
 }
 
 .separator {
